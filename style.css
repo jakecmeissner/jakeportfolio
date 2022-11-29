@@ -1,0 +1,159 @@
+
+/* COMMON */
+body {
+    font-family: monospace, sans-serif;
+}
+
+.font-primary {
+    color: tomato;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: black !important;
+    font-family: Poppins;
+}
+
+/* ABOUT */
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    height: auto;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 19px;
+}
+
+#about .vocation {
+    font-size: 17px;
+    color: gray;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 14px;
+    font-family: Poppins;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+#about .description {
+    font-family: Poppins;
+    font-size: 13px;
+    color: gray;
+    margin-top: 16px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+a#email-link {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+
+a#email-link:hover {
+    color: rgb(48, 47, 47);
+    text-decoration: underline;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color: black;
+    text-decoration: none;
+}
+
+/* PROJECT */
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
+    font-size: large;
+    font-family: Poppins;
+}
+
+#project .card-text {
+    font-size: small;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: tomato;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(252, 141, 121);
+}
+
+.btn-third {
+    color: #fff;
+    background-color: rgb(58, 58, 58);
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.btn-third:hover {
+    background-color:  rgb(84, 84, 84);
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    border: none;
+}
+
+h3.card-headings {
+    font-family: Poppins;
+    margin-bottom: 9px;
+    margin-top: 40px;
+    font-size: x-large;
+}
